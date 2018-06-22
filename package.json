@@ -1,0 +1,25 @@
+{
+  "name": "check-really-require",
+  "version": "0.0.1",
+  "description": "Quick hacky script that checks if all required modules are in pkg.json and get used",
+  "main": "check.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "check-really-require": "check.js"
+  },
+  "keywords": [
+    "script",
+    "check",
+    "require",
+    "package.json",
+    "verify-dependencies"
+  ],
+  "author": "Maciej Krüger <mkg20001@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "glob": "^7.1.2"
+  },
+  "devDependencies": {}
+}
