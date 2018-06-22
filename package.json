@@ -21,5 +21,13 @@
   "dependencies": {
     "glob": "^7.1.2"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mkg20001/check-really-require.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mkg20001/check-really-require/issues"
+  },
+  "homepage": "https://github.com/mkg20001/check-really-require#readme"
 }
