@@ -17,7 +17,8 @@ let WARN = false
 function warn (data) {
   let loc = ''
   if (data.location) {
-    loc = ' @ ' + data.file + ' ' + data.from.line + ':' + data.from.column + ' -> ' + data.to.line + ':' + data.to.column
+    loc = data.location
+    loc = ' @ ' + loc.file + ' ' + loc.from.line + ':' + loc.from.column + ' -> ' + loc.to.line + ':' + loc.to.column
   }
   if (data.error) {
     ERROR = true
@@ -42,11 +43,11 @@ reallyRequire(argv._[0] || process.cwd(), argv)
     }
 
     if (ERROR) {
-      console.error(' %s Detected Errors', '✖'.yellow.bold)
+      console.error(' %s Detected Errors', '✖'.red.bold)
       process.exit(2)
     } else if (WARN) {
       console.error(' %s Detected Warnings', '⚠️'.yellow.bold)
-      process.exit(argv.werror ? 2 : 1)
+      process.exit(argv.werror ? 2 : 0)
     } else {
       console.error(' %s All good', '✔'.green.bold)
       process.exit(0)
