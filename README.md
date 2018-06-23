@@ -1,7 +1,7 @@
 # check-really-require
 
-A tiny script useful for checking if a dependency is missing in package.json or if a dependency is unused
+A CLI that checks for unused and missing dependencies
 
 ## Usage
 
-`check-really-require /path/to/module`
+`check-really-require [/path/to/module]`

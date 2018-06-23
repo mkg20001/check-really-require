@@ -1,7 +1,7 @@
 {
   "name": "check-really-require",
   "version": "0.0.1",
-  "description": "Quick hacky script that checks if all required modules are in pkg.json and get used",
+  "description": "A CLI that checks for unused and missing dependencies",
   "main": "check.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,16 +10,19 @@
     "check-really-require": "check.js"
   },
   "keywords": [
-    "script",
-    "check",
-    "require",
+    "verify-dependencies",
     "package.json",
-    "verify-dependencies"
+    "unused",
+    "missing",
+    "check",
+    "cli"
   ],
   "author": "Maciej Krüger <mkg20001@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "glob": "^7.1.2"
+    "colors": "^1.3.0",
+    "really-require": "^0.0.2",
+    "yargs": "^11.0.0"
   },
   "devDependencies": {},
   "repository": {
