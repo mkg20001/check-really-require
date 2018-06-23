@@ -32,5 +32,8 @@
   "bugs": {
     "url": "https://github.com/mkg20001/check-really-require/issues"
   },
-  "homepage": "https://github.com/mkg20001/check-really-require#readme"
+  "homepage": "https://github.com/mkg20001/check-really-require#readme",
+  "contributors": [
+    "Maciej Krüger <mkg20001@gmail.com>"
+  ]
 }
