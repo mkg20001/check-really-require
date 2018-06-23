@@ -1,6 +1,6 @@
 {
   "name": "check-really-require",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A CLI that checks for unused and missing dependencies",
   "main": "check.js",
   "scripts": {
