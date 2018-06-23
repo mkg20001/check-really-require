@@ -21,7 +21,7 @@
   "license": "MIT",
   "dependencies": {
     "colors": "^1.3.0",
-    "really-require": "^0.0.2",
+    "really-require": "~0.0.2",
     "yargs": "^11.0.0"
   },
   "devDependencies": {},
