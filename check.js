@@ -2,6 +2,8 @@
 
 'use strict'
 
+/* eslint-disable no-console */
+
 const yargs = require('yargs')
 const reallyRequire = require('really-require')
 require('colors')
